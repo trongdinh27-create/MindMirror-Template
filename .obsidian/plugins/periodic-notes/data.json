@@ -1,0 +1,32 @@
+{
+  "showGettingStartedBanner": true,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": true,
+  "daily": {
+    "format": "YYYY-MM-DD",
+    "folder": "2. Tinh Lọc (Mine)/Nhật ký ngày (Daily Notes)",
+    "template": "5. Công Cụ (Toolbox)/Mẫu (Template)/Daily Note Template.md",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "YYYY-[W]WW",
+    "folder": "2. Tinh Lọc (Mine)/Nhật ký tuần (Weekly Notes)",
+    "template": "5. Công Cụ (Toolbox)/Mẫu (Template)/Weekly Note Template.md",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "yearly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  }
+}

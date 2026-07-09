@@ -1,0 +1,24 @@
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# === Obsidian: file cấu hình theo từng máy (không nên chia sẻ) ===
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+
+# Obsidian trash & cache
+.trash/
+.obsidian/plugins/*/data.json.bak
+
+# === Claude Code: chỉ giữ skills, bỏ file local/log ===
+.claude/settings.local.json
+.claude/**/logs/
+.claude/**/cache/
+
+# === Tạm / hệ thống ===
+*.tmp
+*.log
+Thumbs.db
