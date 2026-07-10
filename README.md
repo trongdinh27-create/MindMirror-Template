@@ -66,6 +66,16 @@ Input bất kỳ
 
 ---
 
+## 🤝 Cộng đồng & Hỗ trợ
+
+Gặp **lỗi kỹ thuật** trong lúc dùng, hoặc muốn kết nối với cộng đồng những người cùng xây bộ não thứ hai?
+
+> 👉 **[Tham gia nhóm Zalo MindMirror](https://zalo.me/g/cdrvvwefiqagpn1ofq76)** — hỗ trợ trực tiếp, gỡ lỗi nhanh, học mẹo dùng vault từ người đi trước.
+>
+> 👍 **[Theo dõi Fanpage MindMirror](https://www.facebook.com/profile.php?id=61585320965090)** — cập nhật, mẹo dùng vault và nội dung mới.
+
+---
+
 ## 👤 Tác giả
 
 **Trọng Đinh** — Người kiến tạo MindMirror

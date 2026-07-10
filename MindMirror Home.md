@@ -51,3 +51,12 @@ cssclasses: [home]
 2. Gõ `claude` và nhấn Enter
 3. Gõ `/MindMirror-Phong-Van-Ban-Do-Cuoc-Doi` để khai thác bản thân và điền vào [[Me]]
 4. Còn lại: nói chuyện trực tiếp với Claude để ghi chép, chắt lọc, tổng hợp — nó đã hiểu cấu trúc vault
+
+---
+
+> [!Question]- # 🤝 Cần hỗ trợ? Tham gia cộng đồng
+> Gặp **lỗi kỹ thuật** hoặc muốn kết nối với cộng đồng cùng xây bộ não thứ hai?
+>
+> 👉 **[Tham gia nhóm Zalo MindMirror](https://zalo.me/g/cdrvvwefiqagpn1ofq76)** — hỗ trợ trực tiếp, gỡ lỗi nhanh, học mẹo từ người đi trước.
+>
+> 👍 **[Theo dõi Fanpage MindMirror](https://www.facebook.com/profile.php?id=61585320965090)** — cập nhật và nội dung mới.

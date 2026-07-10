@@ -26,4 +26,20 @@ Chúc các bạn thành công. Và nếu cần hỗ trợ — tôi ở đây.
 
 ---
 
+## Cộng đồng & Hỗ trợ
+
+Trong quá trình sử dụng, nếu bạn gặp **bất kỳ lỗi kỹ thuật nào** hoặc cần hỗ trợ — đừng loay hoay một mình.
+
+**Tham gia nhóm Zalo MindMirror** để được hỗ trợ trực tiếp và kết nối với cộng đồng những người đang cùng xây dựng bộ não thứ hai. Ở đó bạn sẽ:
+
+- 🛠️ Được gỡ lỗi kỹ thuật nhanh chóng
+- 💡 Học mẹo dùng vault từ người đi trước
+- 🤝 Kết nối với cộng đồng và các diễn giả cùng đồng hành
+
+> 👉 **[Tham gia nhóm Zalo MindMirror](https://zalo.me/g/cdrvvwefiqagpn1ofq76)**
+>
+> 👍 **[Theo dõi Fanpage MindMirror](https://www.facebook.com/profile.php?id=61585320965090)** — cập nhật, mẹo dùng vault và nội dung mới.
+
+---
+
 *MindMirror System — Bộ não thứ hai, được thiết kế để dùng thật.*

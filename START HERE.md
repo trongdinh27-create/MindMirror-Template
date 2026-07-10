@@ -56,3 +56,9 @@ Ngoài ra, cứ **nói chuyện trực tiếp** với Claude Code — nó đã h
 ## Cần giúp đỡ?
 
 Cứ hỏi Claude Code trực tiếp trong chat — nó biết cấu trúc vault của bạn.
+
+Gặp **lỗi kỹ thuật** hoặc muốn kết nối cộng đồng cùng xây bộ não thứ hai?
+
+> 👉 **[Tham gia nhóm Zalo MindMirror](https://zalo.me/g/cdrvvwefiqagpn1ofq76)** — hỗ trợ trực tiếp, học mẹo từ người đi trước.
+>
+> 👍 **[Theo dõi Fanpage MindMirror](https://www.facebook.com/profile.php?id=61585320965090)** — cập nhật và nội dung mới.
