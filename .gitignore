@@ -8,6 +8,7 @@ Icon?
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/graph.json
+.obsidian/plugins/recent-files-obsidian/data.json
 
 # Obsidian trash & cache
 .trash/
