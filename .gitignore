@@ -1,25 +1,29 @@
-# === macOS ===
+# Hệ điều hành và Obsidian cục bộ
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon?
-
-# === Obsidian: file cấu hình theo từng máy (không nên chia sẻ) ===
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
-.obsidian/graph.json
-.obsidian/plugins/recent-files-obsidian/data.json
+.obsidian/plugins/*/data.json
 
-# Obsidian trash & cache
-.trash/
-.obsidian/plugins/*/data.json.bak
+# Hồ sơ và dữ liệu cá nhân
+Me.md
+1. Thu Thập/**
+2. Tinh Lọc/Nhật Ký Ngày/**
+2. Tinh Lọc/Ghi Chú Tinh Lọc/**
+2. Tinh Lọc/Tổng Kết Tuần/**
+3. Chuyển Hoá/Bản Đồ/Bản Đồ Chủ Đề/**
+3. Chuyển Hoá/Tri Thức/Luận Điểm Cốt Lõi/**
+3. Chuyển Hoá/Tri Thức/Khung Tư Duy/**
+4. Kiến Tạo/Đang Làm/**
+4. Kiến Tạo/Duy Trì/**
+4. Kiến Tạo/Để Sau/**
+4. Kiến Tạo/Tạm Dừng/**
+5. Hộp Công Cụ/Tệp Đính Kèm/**
+5. Hộp Công Cụ/Sơ Đồ/**
 
-# === Claude Code: chỉ giữ skills, bỏ file local/log ===
-.claude/settings.local.json
-.claude/**/logs/
-.claude/**/cache/
+# Giữ cấu trúc thư mục rỗng
+!.gitkeep
+!**/.gitkeep
 
-# === Tạm / hệ thống ===
+# Tệp tạm
 *.tmp
-*.log
-Thumbs.db
+*.bak

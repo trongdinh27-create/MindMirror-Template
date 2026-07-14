@@ -1,89 +1,67 @@
-# 🪞 MindMirror — Second Brain Template
+# 🪞 MindMirror — Não Bộ Thứ Hai Bằng AI
 
-> **Bộ não thứ hai** cho Obsidian + Claude Code — được thiết kế để **thu thập có chủ đích, khai thác sâu, và biến tri thức thành hành động thật.**
+> **Thu Thập → Tinh Lọc → Chuyển Hoá → Kiến Tạo**
 
-Đây không phải một template ghi chú thông thường. Đây là một hệ thống hoàn chỉnh giúp bạn không phải bắt đầu từ con số không.
+MindMirror là vault Obsidian tiếng Việt giúp bạn biến thông tin rời rạc thành ngữ cảnh cá nhân, tri thức có cấu trúc và tài sản có thể sử dụng lại cùng AI.
 
----
+## Bắt đầu trong 5 phút
 
-## 🚀 Cài đặt nhanh (khoảng 5 phút)
+1. Tải kho này bằng **Download ZIP**, GitHub Desktop hoặc lệnh:
+   ```bash
+   git clone https://github.com/trongdinh27-create/MindMirror-Template.git
+   ```
+2. Mở thư mục bằng Obsidian: **Open folder as vault**.
+3. Mở file [[BẮT ĐẦU TỪ ĐÂY]].
+4. Sao chép `Me.example.md` thành `Me.md`, hoặc chạy skill `mindmirror-ban-do-cuoc-doi` để AI phỏng vấn và điền giúp bạn.
 
-### 1. Tải template về máy
+## Kiến trúc thuần Việt
 
-**Cách A — Tải file zip (dễ nhất):**
-- Bấm nút xanh **`Code`** ở góc trên → **Download ZIP** → giải nén ra một folder.
+| Tầng | Câu hỏi chính | Kết quả |
+|---|---|---|
+| `1. Thu Thập/` | Điều gì vừa xuất hiện và không nên bị thất lạc? | Dữ liệu thô trong một hàng đợi đáng tin cậy |
+| `2. Tinh Lọc/` | Điều này có nghĩa gì với tôi? | Ghi chú đã được làm rõ bằng ngôn ngữ cá nhân |
+| `3. Chuyển Hoá/` | Tôi thật sự biết hoặc tin điều gì? | Luận điểm cốt lõi, khung tư duy và bản đồ tri thức |
+| `4. Kiến Tạo/` | Tri thức này tạo ra giá trị gì? | Nội dung, quyết định, dự án, sản phẩm và tài sản số |
+| `5. Hộp Công Cụ/` | Tôi cần mẫu và công cụ nào để vận hành? | Mẫu ghi chú, tệp đính kèm và sơ đồ |
 
-**Cách B — Dùng git:**
+Xem đầy đủ tại [[QUY ƯỚC MINDMIRROR]].
+
+## Skill AI đi kèm
+
+Nguồn chuẩn nằm trong `.claude/skills/`. Adapter cho Codex nằm trong `.agents/skills/`.
+
+- `mindmirror-luu-tra-loi` — lưu nhanh một nội dung vào Thu Thập.
+- `mindmirror-xu-ly` — xử lý nội dung theo bốn tầng.
+- `mindmirror-tong-hop-tuan` — tổng kết tuần từ Nhật Ký Ngày.
+- `mindmirror-ban-do-cuoc-doi` — xây hồ sơ cá nhân để AI hiểu người dùng.
+- `mindmirror-co-van-ca-nhan` — tư vấn dựa trên ngữ cảnh thật trong vault.
+
+## Cài skill cho Hermes (tuỳ chọn)
+
+Nếu bạn dùng Hermes Agent, chạy:
+
 ```bash
-git clone <URL-repo-này>
+python3 scripts/cai-skill-hermes.py
 ```
 
-### 2. Mở trong Obsidian
-1. Tải **Obsidian** tại [obsidian.md](https://obsidian.md) → cài đặt.
-2. Mở Obsidian → **"Open folder as vault"** → chọn folder template vừa tải.
-3. Obsidian hỏi cài plugins → chọn **"Trust author and enable plugins"**.
+Sau đó mở phiên Hermes mới hoặc chạy `/reload-skills`. Adapter Hermes chỉ trỏ về skill chuẩn trong vault, nên lần sau `git pull` là workflow mới được dùng ngay.
 
-### 3. Mở trong Claude Code
-1. Tải **Claude Code** tại [claude.ai/download](https://claude.ai/download).
-2. Mở folder template này bằng Claude Code.
-3. Xong — Claude Code đã hiểu cấu trúc vault của bạn.
+## Cập nhật mà không mất dữ liệu
 
-### 4. Khai thác bản thân lần đầu
-Gõ vào chat Claude Code:
-```
-/MindMirror-Phong-Van-Ban-Do-Cuoc-Doi
-```
-Claude sẽ phỏng vấn sâu và tự điền Hồ sơ Bản thân (`Me.md`) cho bạn.
+Dữ liệu cá nhân như `Me.md`, nhật ký, ghi chú, dự án và tệp đính kèm được `.gitignore` bảo vệ. Khi cập nhật bằng Git, các file hệ thống và skill được nâng cấp nhưng dữ liệu cá nhân không bị ghi đè.
 
-> 📖 Xem chi tiết trong file **`START HERE.md`**.
-
----
-
-## 🧠 Cấu trúc Vault — MindMirror Pipeline
-
-```
-Input bất kỳ
-    → 1. THU THẬP (Raw)     capture thô, ghi trước khi quên
-    → 2. TINH LỌC (Mine)    khai thác — Daily Notes, Literature Notes
-    → 3. CHUYỂN HOÁ (Core)  tinh lọc — Permanent Notes, Frameworks, Maps
-    → 4. KIẾN TẠO (Mint)    biến tri thức thành output thật
+```bash
+git pull --ff-only
 ```
 
-| Folder | Vai trò |
-| --- | --- |
-| `1. Thu Thập (Raw)` | Capture thô — không format, không phán xét |
-| `2. Tinh Lọc (Mine)` | Nhật ký ngày & Ghi chú học tập — xử lý mỗi ngày |
-| `3. Chuyển Hoá (Core)` | Tri thức đã tinh lọc — Permanent Notes, Frameworks |
-| `4. Kiến Tạo (Mint)` | Dự án và output thật |
-| `5. Công Cụ (Toolbox)` | Templates & tài nguyên — không bao giờ xoá |
+Hoặc chạy:
 
----
+```bash
+python3 scripts/cap-nhat.py
+```
 
-## ✨ Skills đi kèm (gõ `/` trong Claude Code)
+## Tác giả
 
-- **`/MindMirror-Phong-Van-Ban-Do-Cuoc-Doi`** — phỏng vấn sâu 7 phase xây Hồ sơ Bản thân.
-- **`/MindMirror-Chat-Loc-Tri-Thuc`** — chắt lọc tri thức từ PDF, sách, video, link… thành Permanent Notes.
-
----
-
-## 🤝 Cộng đồng & Hỗ trợ
-
-Gặp **lỗi kỹ thuật** trong lúc dùng, hoặc muốn kết nối với cộng đồng những người cùng xây bộ não thứ hai?
-
-> 👉 **[Tham gia nhóm Zalo MindMirror](https://zalo.me/g/cdrvvwefiqagpn1ofq76)** — hỗ trợ trực tiếp, gỡ lỗi nhanh, học mẹo dùng vault từ người đi trước.
->
-> 👍 **[Theo dõi Fanpage MindMirror](https://www.facebook.com/profile.php?id=61585320965090)** — cập nhật, mẹo dùng vault và nội dung mới.
-
----
-
-## 👤 Tác giả
-
-**Trọng Đinh** — Người kiến tạo MindMirror
-
-- 🌐 Website: [mindmirror.vn](https://www.mindmirror.vn/)
-- 📘 Facebook: [Trọng Đinh](https://www.facebook.com/profile.php?id=61585320965090&locale=vi_VN)
-- 📧 Email: trongdinh27@gmail.com
-
----
-
-*MindMirror System — Bộ não thứ hai, được thiết kế để dùng thật.*
+**Trọng Đinh — MindMirror**  
+Website: https://www.mindmirror.vn/  
+Facebook: https://www.facebook.com/profile.php?id=61585320965090

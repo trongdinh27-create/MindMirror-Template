@@ -1,0 +1,13 @@
+name: Kiểm tra MindMirror
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  kiem-tra:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Kiểm tra cấu trúc, skill và dữ liệu riêng tư
+        run: python3 scripts/kiem-tra.py
