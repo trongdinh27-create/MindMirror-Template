@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "5. Công Cụ (Toolbox)/Mẫu (Template)",
+  "templates_folder": "5. Hộp Công Cụ/Mẫu",
   "templates_pairs": [
     [
       "",
@@ -15,44 +15,32 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "1. Thu Thập (Raw)",
-      "template": "5. Công Cụ (Toolbox)/Mẫu (Template)/New Notes Template.md"
+      "folder": "1. Thu Thập",
+      "template": "5. Hộp Công Cụ/Mẫu/Mẫu Ghi Nhanh.md"
     },
     {
-      "folder": "2. Tinh Lọc (Mine)/Nhật ký ngày (Daily Notes)",
-      "template": "5. Công Cụ (Toolbox)/Mẫu (Template)/Daily Note Template.md"
+      "folder": "2. Tinh Lọc/Ghi Chú Tinh Lọc",
+      "template": "5. Hộp Công Cụ/Mẫu/Mẫu Ghi Chú Tinh Lọc.md"
     },
     {
-      "folder": "2. Tinh Lọc (Mine)/Nhật ký tuần (Weekly Notes)",
-      "template": "5. Công Cụ (Toolbox)/Mẫu (Template)/Weekly Note Template.md"
+      "folder": "2. Tinh Lọc/Nhật Ký Ngày",
+      "template": "5. Hộp Công Cụ/Mẫu/Mẫu Nhật Ký Ngày.md"
     },
     {
-      "folder": "2. Tinh Lọc (Mine)/Ghi Chú Học Tập (Literature Notes)",
-      "template": "5. Công Cụ (Toolbox)/Mẫu (Template)/Template - Literature Notes.md"
+      "folder": "2. Tinh Lọc/Tổng Kết Tuần",
+      "template": "5. Hộp Công Cụ/Mẫu/Mẫu Tổng Kết Tuần.md"
     },
     {
-      "folder": "3. Chuyển Hoá (Core)/Dots/Statements",
-      "template": "5. Công Cụ (Toolbox)/Mẫu (Template)/Template - Permanent Notes.md"
+      "folder": "3. Chuyển Hoá/Tri Thức/Luận Điểm Cốt Lõi",
+      "template": "5. Hộp Công Cụ/Mẫu/Mẫu Luận Điểm Cốt Lõi.md"
     },
     {
-      "folder": "3. Chuyển Hoá (Core)/Dots/Frameworks",
-      "template": "5. Công Cụ (Toolbox)/Mẫu (Template)/Template - Frameworks.md"
+      "folder": "3. Chuyển Hoá/Tri Thức/Khung Tư Duy",
+      "template": "5. Hộp Công Cụ/Mẫu/Mẫu Khung Tư Duy.md"
     },
     {
-      "folder": "3. Chuyển Hoá (Core)/Dots/Ghi chú vĩnh viễn (Permanent Notes)",
-      "template": "5. Công Cụ (Toolbox)/Mẫu (Template)/Template - Permanent Notes.md"
-    },
-    {
-      "folder": "4. Kiến Tạo (Mint)/Đang Làm (Active)",
-      "template": "5. Công Cụ (Toolbox)/Mẫu (Template)/Template - Mint Active.md"
-    },
-    {
-      "folder": "4. Kiến Tạo (Mint)/Đang Ủ (Background)",
-      "template": "5. Công Cụ (Toolbox)/Mẫu (Template)/Template - Mint Background.md"
-    },
-    {
-      "folder": "4. Kiến Tạo (Mint)/Để Sau (Later)",
-      "template": "5. Công Cụ (Toolbox)/Mẫu (Template)/Template - Mint Later.md"
+      "folder": "4. Kiến Tạo/Đang Làm",
+      "template": "5. Hộp Công Cụ/Mẫu/Mẫu Dự Án Đang Làm.md"
     }
   ],
   "enable_file_templates": false,
@@ -64,9 +52,7 @@
   ],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
-  "enabled_templates_hotkeys": [
-    "5. Công Cụ (Toolbox)/Mẫu (Template)/New Notes Template.md"
-  ],
+  "enabled_templates_hotkeys": [],
   "startup_templates": [
     ""
   ],
@@ -75,5 +61,6 @@
     {
       "folder": ""
     }
-  ]
+  ],
+  "no_empty_file_template": ""
 }

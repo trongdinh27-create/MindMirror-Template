@@ -1,10 +1,10 @@
 ---
-week: {{date:GGGG-[W]WW}}
+week: <% tp.date.now("GGGG-[W]WW") %>
 loai: tong-ket-tuan
 tags: [tinh-loc, tong-ket-tuan]
 ---
 
-# Tổng Kết Tuần {{date:GGGG-[W]WW}}
+# Tổng Kết Tuần <% tp.date.now("GGGG-[W]WW") %>
 
 ## Kết quả đã tạo ra
 

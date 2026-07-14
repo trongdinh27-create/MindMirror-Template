@@ -1,11 +1,11 @@
 ---
-created: {{date:YYYY-MM-DD}}
+created: <% tp.date.now("YYYY-MM-DD") %>
 loai: ghi-nhanh
 trang-thai: chua-xu-ly
 tags: [thu-thap]
 ---
 
-# {{title}}
+# <% tp.file.title %>
 
 ## Nội dung
 
@@ -15,4 +15,4 @@ tags: [thu-thap]
 
 ## Thời điểm
 
-{{date:YYYY-MM-DD HH:mm}}
+<% tp.date.now("YYYY-MM-DD HH:mm") %>

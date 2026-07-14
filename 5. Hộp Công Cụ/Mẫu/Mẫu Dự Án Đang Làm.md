@@ -1,13 +1,13 @@
 ---
 loai: du-an
 trang-thai: dang-lam
-created: {{date:YYYY-MM-DD}}
+created: <% tp.date.now("YYYY-MM-DD") %>
 deadline:
 rank: 3
 tags: [kien-tao, du-an]
 ---
 
-# {{title}}
+# <% tp.file.title %>
 
 ## Kết quả cần bàn giao
 

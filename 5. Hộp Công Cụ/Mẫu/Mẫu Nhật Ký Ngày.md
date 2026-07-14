@@ -1,10 +1,10 @@
 ---
-date: {{date:YYYY-MM-DD}}
+date: <% tp.date.now("YYYY-MM-DD") %>
 loai: nhat-ky-ngay
 tags: [tinh-loc, nhat-ky]
 ---
 
-# {{date:YYYY-MM-DD}}
+# <% tp.date.now("YYYY-MM-DD") %>
 
 ## Ý định hôm nay
 

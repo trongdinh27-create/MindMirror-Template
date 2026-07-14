@@ -1,13 +1,13 @@
 ---
 up:
   - "[[Tên Bản Đồ Chủ Đề]]"
-created: {{date:YYYY-MM-DD}}
+created: <% tp.date.now("YYYY-MM-DD") %>
 loai: khung-tu-duy
 tags: [chuyen-hoa, khung-tu-duy]
 source:
 ---
 
-# {{title}}
+# <% tp.file.title %>
 
 ## Mục đích
 

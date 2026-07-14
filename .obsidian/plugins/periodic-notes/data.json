@@ -4,14 +4,14 @@
   "hasMigratedWeeklyNoteSettings": true,
   "daily": {
     "format": "YYYY-MM-DD",
-    "folder": "2. Tinh Lọc (Mine)/Nhật ký ngày (Daily Notes)",
-    "template": "5. Công Cụ (Toolbox)/Mẫu (Template)/Daily Note Template.md",
+    "folder": "2. Tinh Lọc/Nhật Ký Ngày",
+    "template": "5. Hộp Công Cụ/Mẫu/Mẫu Nhật Ký Ngày.md",
     "enabled": true
   },
   "weekly": {
     "format": "YYYY-[W]WW",
-    "folder": "2. Tinh Lọc (Mine)/Nhật ký tuần (Weekly Notes)",
-    "template": "5. Công Cụ (Toolbox)/Mẫu (Template)/Weekly Note Template.md",
+    "folder": "2. Tinh Lọc/Tổng Kết Tuần",
+    "template": "5. Hộp Công Cụ/Mẫu/Mẫu Tổng Kết Tuần.md",
     "enabled": true
   },
   "monthly": {

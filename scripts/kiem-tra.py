@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from pathlib import Path
+import json
 import re
 
 root = Path(__file__).resolve().parents[1]
@@ -45,6 +46,28 @@ for p in (root / ".agents/skills").glob("*/SKILL.md"):
     targets = re.findall(r"`(\.\./\.\./\.\./\.claude/skills/[^`]+/SKILL\.md)`", text)
     if len(targets) != 1 or not (p.parent / targets[0]).resolve().exists():
         errors.append(f"Adapter Codex hỏng: {p.relative_to(root)}")
+
+# Template gắn theo thư mục chạy bằng plugin Templater, không dùng cú pháp {{date}}/{{title}} của Core Templates.
+for p in (root / "5. Hộp Công Cụ/Mẫu").glob("Mẫu *.md"):
+    text = p.read_text(encoding="utf-8")
+    if "{{date:" in text or "{{title}}" in text:
+        errors.append(f"Sai cú pháp Templater: {p.relative_to(root)}")
+
+for rel in [".obsidian/plugins/templater-obsidian/data.json", ".obsidian/plugins/periodic-notes/data.json", ".obsidian/daily-notes.json"]:
+    p = root / rel
+    try:
+        json.loads(p.read_text(encoding="utf-8"))
+    except Exception as exc:
+        errors.append(f"JSON cấu hình lỗi {rel}: {exc}")
+
+templater_path = root / ".obsidian/plugins/templater-obsidian/data.json"
+if templater_path.exists():
+    cfg = json.loads(templater_path.read_text(encoding="utf-8"))
+    for rule in cfg.get("folder_templates", []):
+        if not (root / rule.get("folder", "")).is_dir():
+            errors.append(f"Thư mục Templater không tồn tại: {rule.get('folder')}")
+        if rule.get("template") and not (root / rule["template"]).is_file():
+            errors.append(f"Template không tồn tại: {rule.get('template')}")
 
 if errors:
     print("KIỂM TRA THẤT BẠI")

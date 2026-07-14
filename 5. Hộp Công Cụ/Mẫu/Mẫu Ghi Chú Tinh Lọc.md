@@ -1,13 +1,13 @@
 ---
 up:
-created: {{date:YYYY-MM-DD}}
+created: <% tp.date.now("YYYY-MM-DD") %>
 loai: ghi-chu-tinh-loc
 tags: [tinh-loc]
 source:
 chu-de:
 ---
 
-# {{title}}
+# <% tp.file.title %>
 
 ## Nội dung nguồn
 
